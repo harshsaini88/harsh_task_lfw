@@ -1,7 +1,7 @@
 # Face Recognition Using LFW Dataset
 
 ## Problem Statement
-Train a CNN model to recognize face using this [data](https://www.kaggle.com/datasets/atulanandjha/lfwpeople).
+Train a cnn model to recognize face using this [data](https://www.kaggle.com/datasets/atulanandjha/lfwpeople).
 Split data in different different category e.g. Category A and Category B. then select random image and alert if images relate to Category A.
 
 ## Project Overview
