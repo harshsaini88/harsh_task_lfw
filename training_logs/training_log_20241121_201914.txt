@@ -1,0 +1,152 @@
+Epoch 1/50:
+  - Loss: 0.3191, Accuracy: 0.9051
+  - Validation Loss: 0.2684, Validation Accuracy: 0.9084
+Epoch 2/50:
+  - Loss: 0.2725, Accuracy: 0.9056
+  - Validation Loss: 0.2443, Validation Accuracy: 0.9084
+Epoch 3/50:
+  - Loss: 0.2575, Accuracy: 0.9056
+  - Validation Loss: 0.2682, Validation Accuracy: 0.9084
+Epoch 4/50:
+  - Loss: 0.2432, Accuracy: 0.9056
+  - Validation Loss: 0.2207, Validation Accuracy: 0.9084
+Epoch 5/50:
+  - Loss: 0.2265, Accuracy: 0.9056
+  - Validation Loss: 0.2098, Validation Accuracy: 0.9084
+Epoch 6/50:
+  - Loss: 0.2133, Accuracy: 0.9056
+  - Validation Loss: 0.2103, Validation Accuracy: 0.9084
+Epoch 7/50:
+  - Loss: 0.1981, Accuracy: 0.9095
+  - Validation Loss: 0.1987, Validation Accuracy: 0.9112
+Epoch 8/50:
+  - Loss: 0.1887, Accuracy: 0.9217
+  - Validation Loss: 0.1986, Validation Accuracy: 0.9160
+Epoch 9/50:
+  - Loss: 0.1823, Accuracy: 0.9286
+  - Validation Loss: 0.1917, Validation Accuracy: 0.9254
+Epoch 10/50:
+  - Loss: 0.1659, Accuracy: 0.9337
+  - Validation Loss: 0.1921, Validation Accuracy: 0.9207
+Epoch 11/50:
+  - Loss: 0.1593, Accuracy: 0.9402
+  - Validation Loss: 0.2204, Validation Accuracy: 0.9018
+Epoch 12/50:
+  - Loss: 0.1485, Accuracy: 0.9465
+  - Validation Loss: 0.1935, Validation Accuracy: 0.9216
+Epoch 13/50:
+  - Loss: 0.1377, Accuracy: 0.9473
+  - Validation Loss: 0.2191, Validation Accuracy: 0.9245
+Epoch 14/50:
+  - Loss: 0.1326, Accuracy: 0.9483
+  - Validation Loss: 0.2149, Validation Accuracy: 0.9008
+Epoch 15/50:
+  - Loss: 0.1253, Accuracy: 0.9539
+  - Validation Loss: 0.2060, Validation Accuracy: 0.9065
+Epoch 16/50:
+  - Loss: 0.1161, Accuracy: 0.9559
+  - Validation Loss: 0.1861, Validation Accuracy: 0.9235
+Epoch 17/50:
+  - Loss: 0.1043, Accuracy: 0.9611
+  - Validation Loss: 0.2099, Validation Accuracy: 0.9254
+Epoch 18/50:
+  - Loss: 0.1011, Accuracy: 0.9621
+  - Validation Loss: 0.2026, Validation Accuracy: 0.9235
+Epoch 19/50:
+  - Loss: 0.0943, Accuracy: 0.9640
+  - Validation Loss: 0.2080, Validation Accuracy: 0.9263
+Epoch 20/50:
+  - Loss: 0.0921, Accuracy: 0.9659
+  - Validation Loss: 0.2007, Validation Accuracy: 0.9273
+Epoch 21/50:
+  - Loss: 0.0885, Accuracy: 0.9675
+  - Validation Loss: 0.2120, Validation Accuracy: 0.9226
+Epoch 22/50:
+  - Loss: 0.0840, Accuracy: 0.9677
+  - Validation Loss: 0.2052, Validation Accuracy: 0.9226
+Epoch 23/50:
+  - Loss: 0.0810, Accuracy: 0.9705
+  - Validation Loss: 0.2418, Validation Accuracy: 0.9320
+Epoch 24/50:
+  - Loss: 0.0679, Accuracy: 0.9749
+  - Validation Loss: 0.2547, Validation Accuracy: 0.9282
+Epoch 25/50:
+  - Loss: 0.0722, Accuracy: 0.9748
+  - Validation Loss: 0.2167, Validation Accuracy: 0.9141
+Epoch 26/50:
+  - Loss: 0.0645, Accuracy: 0.9768
+  - Validation Loss: 0.2285, Validation Accuracy: 0.9178
+Epoch 27/50:
+  - Loss: 0.0607, Accuracy: 0.9764
+  - Validation Loss: 0.2415, Validation Accuracy: 0.9226
+Epoch 28/50:
+  - Loss: 0.0622, Accuracy: 0.9774
+  - Validation Loss: 0.2795, Validation Accuracy: 0.9263
+Epoch 29/50:
+  - Loss: 0.0553, Accuracy: 0.9784
+  - Validation Loss: 0.2794, Validation Accuracy: 0.9207
+Epoch 30/50:
+  - Loss: 0.0531, Accuracy: 0.9802
+  - Validation Loss: 0.2557, Validation Accuracy: 0.9207
+Epoch 31/50:
+  - Loss: 0.0497, Accuracy: 0.9807
+  - Validation Loss: 0.2408, Validation Accuracy: 0.9235
+Epoch 32/50:
+  - Loss: 0.0522, Accuracy: 0.9798
+  - Validation Loss: 0.3093, Validation Accuracy: 0.9273
+Epoch 33/50:
+  - Loss: 0.0550, Accuracy: 0.9796
+  - Validation Loss: 0.2692, Validation Accuracy: 0.9188
+Epoch 34/50:
+  - Loss: 0.0489, Accuracy: 0.9819
+  - Validation Loss: 0.2719, Validation Accuracy: 0.9226
+Epoch 35/50:
+  - Loss: 0.0510, Accuracy: 0.9813
+  - Validation Loss: 0.2925, Validation Accuracy: 0.9160
+Epoch 36/50:
+  - Loss: 0.0452, Accuracy: 0.9832
+  - Validation Loss: 0.2934, Validation Accuracy: 0.9188
+Epoch 37/50:
+  - Loss: 0.0463, Accuracy: 0.9833
+  - Validation Loss: 0.2972, Validation Accuracy: 0.9235
+Epoch 38/50:
+  - Loss: 0.0454, Accuracy: 0.9816
+  - Validation Loss: 0.2843, Validation Accuracy: 0.9301
+Epoch 39/50:
+  - Loss: 0.0484, Accuracy: 0.9838
+  - Validation Loss: 0.3053, Validation Accuracy: 0.9235
+Epoch 40/50:
+  - Loss: 0.0386, Accuracy: 0.9860
+  - Validation Loss: 0.3161, Validation Accuracy: 0.9273
+Epoch 41/50:
+  - Loss: 0.0407, Accuracy: 0.9855
+  - Validation Loss: 0.3200, Validation Accuracy: 0.9273
+Epoch 42/50:
+  - Loss: 0.0418, Accuracy: 0.9846
+  - Validation Loss: 0.3811, Validation Accuracy: 0.9282
+Epoch 43/50:
+  - Loss: 0.0415, Accuracy: 0.9843
+  - Validation Loss: 0.2854, Validation Accuracy: 0.9226
+Epoch 44/50:
+  - Loss: 0.0390, Accuracy: 0.9854
+  - Validation Loss: 0.3998, Validation Accuracy: 0.9311
+Epoch 45/50:
+  - Loss: 0.0393, Accuracy: 0.9853
+  - Validation Loss: 0.3368, Validation Accuracy: 0.9311
+Epoch 46/50:
+  - Loss: 0.0389, Accuracy: 0.9851
+  - Validation Loss: 0.2817, Validation Accuracy: 0.9311
+Epoch 47/50:
+  - Loss: 0.0361, Accuracy: 0.9862
+  - Validation Loss: 0.3469, Validation Accuracy: 0.9282
+Epoch 48/50:
+  - Loss: 0.0369, Accuracy: 0.9869
+  - Validation Loss: 0.3472, Validation Accuracy: 0.9273
+Epoch 49/50:
+  - Loss: 0.0395, Accuracy: 0.9838
+  - Validation Loss: 0.2932, Validation Accuracy: 0.9235
+Epoch 50/50:
+  - Loss: 0.0340, Accuracy: 0.9885
+  - Validation Loss: 0.3765, Validation Accuracy: 0.9330
+Test Accuracy: 0.93
+Model saved as face_recognition_model.h5
