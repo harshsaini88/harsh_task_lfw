@@ -26,11 +26,11 @@ lfw_face_recognition/
 
 ## Steps to Run the Project
 
-4. Create Env:
+1. Create ENV:
 ```
 conda create -n lfw python=3.9
 ```
-3. Install dependencies:
+2. Install dependencies:
 ```
 pip install -r requirements.txt
 ```
@@ -38,12 +38,11 @@ pip install -r requirements.txt
 ```
 https://drive.google.com/drive/folders/18TbY20DdpXIguR6tSEKA7HoAHiC1jvfw?usp=sharing
 ```
-
 4. Run (For Training):
 ```
 python train.py
 ```
-4. Run (For Prediction):
+5. Run (For Prediction):
 ```
 uvicorn app:app --reload
 ```
