@@ -9,7 +9,6 @@ This project uses the LFW dataset to train a CNN model for face recognition. It 
 
 ## Directory Structure
 ```
-lfw_face_recognition/
 ├── data/
 │   └── lfw/              # (Place your LFW dataset here)
 ├── src/
