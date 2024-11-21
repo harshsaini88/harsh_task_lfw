@@ -4,6 +4,7 @@
 This project uses the LFW dataset to train a CNN model for face recognition. It classifies images into two categories (Category A and Category B) and alerts if a random image belongs to Category A.
 
 ## Directory Structure
+```
 lfw_face_recognition/
 ├── data/
 │   └── lfw/              # (Place your LFW dataset here)
@@ -17,6 +18,7 @@ lfw_face_recognition/
 ├── main.py               # Main entry point
 ├── requirements.txt      # Dependencies
 └── README.md             # Documentation
+```
 
 ## Steps to Run the Project
 1. Download the LFW dataset from [here](https://www.kaggle.com/datasets/atulanandjha/lfwpeople).
