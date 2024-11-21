@@ -26,7 +26,6 @@ lfw_face_recognition/
 4. Create Env:
 ```
 conda create -n lfw python=3.9
-
 ```
 3. Install dependencies:
 ```
@@ -39,7 +38,6 @@ python train.py
 4. Run (For Prediction):
 ```
 uvicorn app:app --reload
-
 ```
 
 ## Features
