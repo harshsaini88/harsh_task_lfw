@@ -36,7 +36,7 @@ pip install -r requirements.txt
 ```
 3. Download dataset:
 ```
-https://drive.google.com/drive/folders/18TbY20DdpXIguR6tSEKA7HoAHiC1jvfw?usp=sharing
+gdown --folder https://drive.google.com/drive/folders/18TbY20DdpXIguR6tSEKA7HoAHiC1jvfw
 ```
 4. Run (For Training):
 ```
