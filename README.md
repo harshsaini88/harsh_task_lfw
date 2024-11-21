@@ -26,9 +26,10 @@ lfw_face_recognition/
 
 ## Steps to Run the Project
 
-1. Create ENV:
+1. Create & Activate ENV:
 ```
 conda create -n lfw python=3.9
+conda activate lfw
 ```
 2. Install dependencies:
 ```
