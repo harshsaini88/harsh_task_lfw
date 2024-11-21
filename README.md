@@ -2,7 +2,7 @@
 
 ## Problem Statement
 Train a cnn model to recognize face using this [data](https://www.kaggle.com/datasets/atulanandjha/lfwpeople).
-split data in different different category e.g. Category A and Category B. then select random image and alert if images relate to Category A.
+split data in different different category e.g. category a and category b. then select random image and alert if images relate to category a.
 
 ## Project Overview
 This project uses the LFW dataset to train a CNN model for face recognition. It classifies images into two categories (Category A and Category B) and alerts if a random image belongs to Category A.
