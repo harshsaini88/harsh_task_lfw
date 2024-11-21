@@ -25,8 +25,7 @@ lfw_face_recognition/
 ```
 
 ## Steps to Run the Project
-1. Download the LFW dataset from [here](https://www.kaggle.com/datasets/atulanandjha/lfwpeople).
-2. Place the dataset in `data/lfw/`.
+
 4. Create Env:
 ```
 conda create -n lfw python=3.9
@@ -35,6 +34,11 @@ conda create -n lfw python=3.9
 ```
 pip install -r requirements.txt
 ```
+3. Download dataset:
+```
+https://drive.google.com/drive/folders/18TbY20DdpXIguR6tSEKA7HoAHiC1jvfw?usp=sharing
+```
+
 4. Run (For Training):
 ```
 python train.py
