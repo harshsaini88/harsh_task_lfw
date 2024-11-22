@@ -84,7 +84,7 @@ You have two options depending on your requirements:
 ### Option 2: Train the Model
 1. **Download the Dataset**: Download the LFW dataset for training:
    ```bash
-   gdown --folder https://drive.google.com/drive/folders/18TbY20DdpXIguR6tSEKA7HoAHiC1jvfw
+   gdown --folder https://drive.google.com/drive/folders/18TbY20DdpXIguR6tSEKA7HoAHiC1jvfw --remaining-ok
    ```
 2. Run the training script:
    ```bash
