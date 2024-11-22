@@ -17,11 +17,25 @@ Develop a CNN model to recognize faces using the [LFW dataset](https://www.kaggl
 - **CNN-Based Face Recognition**: Classifies faces into two categories.
 - **Alert Mechanism**: Generates alerts if a random image belongs to **Category A**.
 - **Flexible Architecture**: Can be extended to support multi-class classification using a softmax layer.
+- **Training Logs**: Stored in the `training_logs` folder for review and analysis.
+
+---
+
+## Model Details
+- **Training Results**:
+  - Loss: **0.0340**, Accuracy: **0.9885**
+  - Validation Loss: **0.3765**, Validation Accuracy: **0.9330**
+- **Test Accuracy**: **0.93**
+- **Saved Model**: The trained model is saved as `face_recognition_model.h5`.
+
+---
 
 ## Directory Structure
 ```plaintext
 ├── data/
 │   └── lfw/              # (Place your LFW dataset here if training the model)
+├── testing_data/         # Folder containing testing data for evaluation
+├── training_logs/        # Folder containing training logs
 ├── src/
 │   ├── __init__.py       # (Marks src as a package)
 │   ├── config.py         # (Configuration settings)
@@ -58,12 +72,12 @@ pip install -r requirements.txt
 You have two options depending on your requirements:
 
 ### Option 1: Use Pretrained Model for Prediction
-1. Ensure you have a pretrained model saved in the designated directory.
+1. Ensure you have the pretrained model (`face_recognition_model.h5`) saved in the designated directory.
 2. Start the prediction server:
    ```bash
    uvicorn app:app --reload
    ```
-3. Test the application by sending requests to the prediction endpoint.
+3. Testing data is available in the `testing_data` folder. Use this folder for evaluating the model's performance by sending requests to the prediction endpoint.
 
 ---
 
@@ -76,7 +90,14 @@ You have two options depending on your requirements:
    ```bash
    python train.py
    ```
-3. After training, the model will be saved. You can then follow **Option 1** to use the newly trained model for predictions.
+3. Training logs will be saved in the `training_logs` folder for future reference.
+4. After training, the model will be saved as `face_recognition_model.h5`. You can then follow **Option 1** to use the newly trained model for predictions.
+
+---
+
+## Testing Data
+- All testing data is stored in the `testing_data` folder.
+- This folder contains images used for evaluating the model's performance and generating predictions.
 
 ---
 
@@ -84,3 +105,7 @@ You have two options depending on your requirements:
 - **Deep Learning**: TensorFlow/Keras or PyTorch for CNN model development.
 - **Python**: For scripting and automation.
 - **FastAPI/Uvicorn**: For deploying the prediction API.
+
+---
+
+This setup includes all relevant details, such as model performance metrics, saved model information, and log storage. If you encounter any issues or need further clarification, feel free to reach out!
