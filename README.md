@@ -53,7 +53,9 @@ pip install -r requirements.txt
 5. Run (For Prediction from trained model):
 ```
 uvicorn app:app --reload
+
 ```
+for trainng
 3. Download dataset:
 ```
 gdown --folder https://drive.google.com/drive/folders/18TbY20DdpXIguR6tSEKA7HoAHiC1jvfw
