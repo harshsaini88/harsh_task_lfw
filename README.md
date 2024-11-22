@@ -5,7 +5,9 @@ Train a cnn model to recognize face using this [data](https://www.kaggle.com/dat
 split data in different different category e.g. category a and category b. then select random image and alert if images relate to category a.
 
 ## Project Overview
-This project uses the LFW dataset to train a CNN model for face recognition. It classifies images into two categories (Category A and Category B) and alerts if a random image belongs to Category A.
+This project uses the LFW dataset to train a CNN model for face recognition. It classifies images into two categories (Category A and Category B) and alerts if a random image belongs to Category A.the are only 2 classes define category a cat b and i use softmax funtion so that we can increase number of classes for training 
+
+the classed contain 
 
 ## Directory Structure
 ```
@@ -30,9 +32,16 @@ This project uses the LFW dataset to train a CNN model for face recognition. It 
 conda create -n lfw python=3.9
 conda activate lfw
 ```
+
+
 2. Install dependencies:
 ```
 pip install -r requirements.txt
+```
+
+5. Run (For Prediction from trained model):
+```
+uvicorn app:app --reload
 ```
 3. Download dataset:
 ```
@@ -42,10 +51,7 @@ gdown --folder https://drive.google.com/drive/folders/18TbY20DdpXIguR6tSEKA7HoAH
 ```
 python train.py
 ```
-5. Run (For Prediction):
-```
-uvicorn app:app --reload
-```
+
 
 ## Features
 - CNN model for binary face recognition.
