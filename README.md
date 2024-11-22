@@ -40,7 +40,7 @@ the classed contain
 
 1. Create & Activate ENV:
 ```
-conda create -n lfw python=3.9
+conda create -n lfw python=3.9 -y
 conda activate lfw
 ```
 
