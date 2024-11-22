@@ -107,5 +107,3 @@ You have two options depending on your requirements:
 - **FastAPI/Uvicorn**: For deploying the prediction API.
 
 ---
-
-This setup includes all relevant details, such as model performance metrics, saved model information, and log storage. If you encounter any issues or need further clarification, feel free to reach out!
