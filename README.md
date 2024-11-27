@@ -52,14 +52,20 @@ Develop a CNN model to recognize faces using the [LFW dataset](https://www.kaggl
 
 ## Steps to Run the Project
 
-### 1. Create and Activate Virtual Environment
+### 1. Clone the repo
+```bash
+git clone https://github.com/harshsaini88/harsh_task_lfw.git
+cd harsh_task_lfw
+```
+
+### 2. Create and Activate Virtual Environment
 Use `conda` to set up the Python environment:
 ```bash
 conda create -n lfw python=3.9 -y
 conda activate lfw
 ```
 
-### 2. Install Dependencies
+### 3. Install Dependencies
 Install the required libraries:
 ```bash
 pip install -r requirements.txt
